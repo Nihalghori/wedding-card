@@ -10,7 +10,7 @@
     body {
       margin: 0;
       font-family: 'Dancing Script', cursive;
-      background-image: url('edba8d3f105a1807584dfe4173ac832e.jpg'); /* Replace with your image path */
+      background-image: url('0b7c484dcc5bc773faaf35a31b3bffe2.jpg'); /* Replace with your image path */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -25,6 +25,8 @@
       text-align: center;
       font-size: 2rem;
       color:white;
+      position: relative;
+      left: -10px;
     }
 
     /* Book container styles */
@@ -35,9 +37,9 @@
     .book {
       width: 300px;
       height: 400px;
-      background: #c0a610;
-      border: 1px solid #e9ec0b;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      background-color: rgba(0, 0, 0, 0.5);/* Set a solid color background */
+      border: 1px solid #ccc;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
       transition: transform 1s ease-in-out;
       transform-style: preserve-3d;
       transform-origin: left;
@@ -58,20 +60,22 @@
 
     /* Front side of the book (before opening) */
     .book .front {
-      background-color: #f8f9fa;
       background-color: transparent;
     }
 
     /* Back side of the book (after flipping) */
     .book .back {
-      background-color: transparent; /* Transparent back */
-      border: 1px solid rgba(255, 255, 255, 0.5); /* Optional border for visibility */
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.5);
       transform: rotateY(180deg);
     }
 
     .open-book {
       transform: rotateY(-180deg);
     }
+
+    /* Button for opening the book */
+    
 
     /* Button for opening the book */
     .open-button {
@@ -95,7 +99,7 @@
           <div class="front">
             <div class="invitation">
               <h1>You're Invited</h1>
-              <p>To Bilal & Sara's Wedding</p>
+              <p>To Bilal & Sara's Mehandi</p>
               <button class="open-button" onclick="openInvitation()">Open It</button>
             </div>
           </div>
