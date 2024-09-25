@@ -73,7 +73,7 @@ body, html {
 #wedding-text {
   position: absolute;
   top: 30%;
-  left: 23%;
+  left: 20%;
   transform: translateX(-50%);
   z-index: 2;
   opacity: 0;
@@ -81,11 +81,11 @@ body, html {
   animation: slideInText 0.5s forwards; /* Slide-in animation */
   
   /* Gradient Text */
-  background: linear-gradient(45deg, #FF5733, #FFBD33, #FF33F6, #33FF57);
+  background: linear-gradient(45deg, #fbff10, #FFBD33, #c096b3, #f7de01);
   -webkit-background-clip: text;
   color: transparent; /* Make text transparent to see the gradient */
-  font-size: 3rem; /* Adjust font size as needed */
-  font-weight: bold; /* Make the text bold for better visibility */
+  font-size: 4rem; /* Adjust font size as needed */
+  font-weight: 40px; /* Make the text bold for better visibility */
 }
 
 
