@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Wedding Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="card-container">
+    <div class="background"></div>
+    
+    <div class="bride-groom">
+      <div class="bride"></div>
+      <div class="groom"></div>
+    </div>
+
+    <!-- Countdown and Text -->
+    <div id="countdown" style="font-size: 3rem; opacity: 1;"></div>
+
+    <!-- Headings for the wedding card -->
+    <h1 id="heading" class="hidden" style="opacity: 0;">Are you guys ready?</h1>
+    <div id="wedding-text" class="hidden" style="opacity: 0;">
+      <h2>Bilal & Sara</h2>
+      <h2>Mehandi Ceremony</h2>
+      <p>Date: October 25th, 2024</p>
+      <p>Venue: Grand Ballroom, XYZ Hotel</p>
+
+      <!-- New Location Section -->
+      <p><a href="https://www.google.com/maps/place/Samanzar+Luxury+Banquet/@24.9529427,67.0558862,17z/data=!3m1!4b1!4m6!3m5!1s0x3eb3409ad2c5925d:0x827055a295b2cf39!8m2!3d24.9529427!4d67.0584665!16s%2Fg%2F11ckvbp6w_?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="location-btn">View Location</a></p>
+    </div>
+   
+    <audio id="wedding-music" src="your-music-file.mp3"></audio>
+     
+    <button class="rsvp-btn">RSVP</button>
+  </div>
+  <img id="wedding-image" src="290a7ad7ea0c26348bbef4d4e17fa10b-removebg-preview (1).png" alt="Wedding" class="hidden" />
+
+  <script src="script.js"></script>
+</body>
+</html>
