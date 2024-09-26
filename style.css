@@ -52,7 +52,7 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
+  color: rgb(255, 210, 12);
   font-size: 3rem;
   z-index: 2;
 }
@@ -64,7 +64,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  color: white;
+  color: darkgoldenrod;
   z-index: 2;
   transition: opacity 0.5s ease-in-out;
   font-family: 'Dancing Script', cursive;
@@ -73,7 +73,7 @@ body, html {
 #wedding-text {
   position: absolute;
   top: 30%;
-  left: 20%;
+  left: 18%;
   transform: translateX(-50%);
   z-index: 2;
   opacity: 0;
@@ -81,7 +81,7 @@ body, html {
   animation: slideInText 0.5s forwards; /* Slide-in animation */
   
   /* Gradient Text */
-  background: linear-gradient(45deg, #fbff10, #FFBD33, #c096b3, #f7de01);
+  background: linear-gradient(45deg, #e9cc2a, #FFBD33, #c096b3, #f7de01);
   -webkit-background-clip: text;
   color: transparent; /* Make text transparent to see the gradient */
   font-size: 4rem; /* Adjust font size as needed */
@@ -104,7 +104,7 @@ body, html {
   color: #f7f0e6;
   text-decoration: none;
   font-size: 1rem;
-  background-color: #c88d6e;
+  background-color: #dd5c17;
   padding: 10px 20px;
   border-radius: 5px;
   position: absolute;

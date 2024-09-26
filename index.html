@@ -10,7 +10,7 @@
     body {
       margin: 0;
       
-      background-image: url('background.jpg'); /* Replace with your image path */
+      background-image: url('back1.jpg'); /* Replace with your image path */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -34,19 +34,25 @@ p{
 }
     /* Book container styles */
     .book-container {
-      perspective: 1000px;
+      perspective: 900px;
     }
 
     .book {
       width: 300px;
-      height: 400px;
-      background-color: rgba(0, 0, 0, 0.5);/* Set a solid color background */
+      height: 300px;
+      background: linear-gradient(45deg, #e9cc2a, #FFBD33, #c096b3, #f7de01); 
       border: 1px solid #ccc;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
       transition: transform 1s ease-in-out;
       transform-style: preserve-3d;
       transform-origin: left;
       position: relative;
+      z-index: 1;
+      border-radius: 40px;
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: italic;
     }
 
     .book .front, .book .back {
