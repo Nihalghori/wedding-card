@@ -73,50 +73,47 @@ body, html {
 #wedding-text {
   position: absolute;
   top: 30%;
-  left: 15%;
-  transform: translateX(-50%);
+  left: 12%;
+  transform: translate(-50%, -50%);
   z-index: 2;
   opacity: 0;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   animation: slideInText 0.5s forwards; /* Slide-in animation */
   
-  /* Gradient Text */
+  /* Gradient Text for Wedding Message */
   background: linear-gradient(45deg, #e9cc2a, #FFBD33, #c096b3, #f7de01);
   -webkit-background-clip: text;
-  color: transparent; /* Make text transparent to see the gradient */
-  font-size: 4rem; /* Adjust font size as needed */
-  font-weight: 40px; /* Make the text bold for better visibility */
-}
-
-
-#wedding-text h2 {
-  font-size: 1.8rem;
-  margin: 0.5rem 0;
+  color: transparent;
+  font-size: 5vw; /* Viewport width ensures responsive text size */
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
   font-family: 'Dancing Script', cursive;
 }
-
-#wedding-text p {
-  font-size: 1rem;
-  margin: 0.3rem 0;
+#wedding-text p{
+  font-family: 'sans-serif';
 }
-
 .location-btn {
-  color: #dd5c17;;
-  text-decoration: none;
-  font-size: 1rem;
- border: 2px solid #dd5c17;;
-  padding: 10px 20px;
-  border-radius: 5px;
   position: absolute;
-  top: 200px;
-  left: 45px;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  color: #dd5c17;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 2px solid #dd5c17;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Wedding Image */
 #wedding-image {
   position: absolute;
   bottom: -5%;
-  left: 28%;
+  left: 30%;
   transform: translateX(-50%);
   width: 60%;
   opacity: 0;
@@ -171,10 +168,4 @@ body, html {
   }
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
+
